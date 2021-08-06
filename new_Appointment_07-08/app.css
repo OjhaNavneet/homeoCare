@@ -1,0 +1,64 @@
+/* form layout*/
+.box1
+{
+    border: 1px solid black;
+    padding: 10px;
+    margin-right: 5px;
+    margin-bottom: 20px;
+}
+.head1
+{
+    background-color: aqua;
+    width: 100%;
+    height: 50px;
+    margin: auto;
+    
+}
+.head1 h1
+{
+
+    font-size: 24px !important;
+    line-height: 2.0;
+    margin-left: 5px;
+}
+.box1 .form
+{
+    margin-top: 16px;
+
+}
+/* table layout */
+
+.box2
+{
+    border: 1px solid black;
+    padding: 5px;
+    height: 380px;
+    overflow: hidden;
+
+}
+.head2
+{
+    background-color: aqua;
+    width: 100%;
+    height: 50px;
+    margin-top: 5px;
+    
+}
+.head2 h2
+{
+
+    font-size: 24px !important;
+    line-height: 2.0;
+    margin-left: 5px;
+    position: static;
+}
+table{
+    display: block;
+    overflow: scroll;
+    height: 42.5vh;
+    
+}
+tbody, td, th, thead, tr 
+{
+    width: 1%;
+}
